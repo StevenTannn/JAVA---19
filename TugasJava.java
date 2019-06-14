@@ -1,5 +1,6 @@
 public class TugasJava {
     public static void main(String[] args) {
+        System.out.println();
         Employee tania = new Employee("Tania", 100.0);
 
         System.out.println("Nama : " + tania.getName() + "(" + tania.getClass().getName() + ")");
@@ -16,5 +17,7 @@ public class TugasJava {
         System.out.println("Komisi : " + silvi.getComission());
         System.out.println("Pajak : " + silvi.getTax());
         System.out.println("Pendapatan Bersih : " + silvi.getTakeHomePay());
+        
+        System.out.println();
     }
 }
