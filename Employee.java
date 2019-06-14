@@ -3,11 +3,10 @@ public class Employee implements Taxable {
 	protected double salary;
 	protected double comission;
 
-	public Employee(String name, double salary, double comission) {
+	public Employee(String name, double salary) {
 		this.name = name;
 		validitySalary(salary);
 		this.salary = salary;
-		this.comission = comission;
 	}
 
 	public void validitySalary(double salary) {

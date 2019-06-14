@@ -1,7 +1,8 @@
 public class ComissionedEmployee extends Employee {
 
 	public ComissionedEmployee(String name, double salary, double comission) {
-		super(name, salary, comission);
+		super(name, salary);
+		this.comission = comission;
 	}
 
 	public double getComission() {
